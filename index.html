@@ -8,6 +8,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
     <link rel="stylesheet" href="fonts/icons.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <header id="navi-header">
@@ -36,6 +44,8 @@
           </nav>
       </div>
     </header>
+
+
     <main id="hauptteil">
       <div class="hero">
         <div class="hero-text">
@@ -149,31 +159,76 @@
 
 
 
-        <section>
+
         <aside id="sidebar">
           <section id="suche">
             <h2>FINDE DEIN REZEPT</h2>
-            <form class="" action="https://www.google.de/search" method="get">
+            <form class="search-form" action="https://www.google.de/search" method="get">
               <input type="search" name="q" value="" placeholder="Mmmmmmmmmmmh">
               <button type="submit" name="button">
                 <span class="icon-search"></span>
 
               </button>
             </form>
-
           </section>
           <section id="about">
+            <img class="rund" src="img/koch.jpg" alt="Bild mit Frosch">
+            <h2>Hier kocht der Chef</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
           </section>
           <section id="affiliate">
+            <h2>Zu faul zum Kochen?</h2>
+            <img src="img/ravioli.jpg" alt="Raviolidose in der Sidebar">
+            <p>Hol dir tolle Fertiggerichte bei</p>
+            <a href="https://www.amazon.de/Frische-Fertiggerichte/b?ie=UTF8&node=9732440031" target="_blank">
+              <img src="img/amazon-fresh.gif" alt="Amazon Fresh Logo">
+            </a>
+
 
           </section>
 
         </aside>
-        </section>
+
 
 </div>
     </main>
+
+    <footer id="footer">
+      <div class="wrapper">
+
+
+      <ul class="betty">
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+        <li>
+          <a href="#">Imressum</a>
+        </li>
+        <li>
+          <a href="#">Datenschutz</a>
+
+        </li>
+      </ul>
+      <ul class="social">
+        <li>
+          <a href="https://">
+            <span class="icon-facebook"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://">
+            <span class="icon-youtube"></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://">
+            <span class="icon-instagram "></span>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </footer>
     <!-- hier kommt das Javaskript für das Menü -->
     <script type="text/javascript" src="menu.js"></script>
   </body>
